@@ -1,0 +1,607 @@
+Types of class
+----------------
+1. External
+2. Internal
+3. Inline
+
+Types of selectors 
+-----------------
+1. class selector (.)
+2. id selector (#)
+3. tag name selector (h1,p)
+4. universal selector (*)
+
+Types of tags 
+----------------
+1. Semantic tags
+    => header
+    => nav
+    => section
+    => article
+    => aside
+    => summary
+    => footer
+2. Non-semantic tags 
+    => div
+    => span
+3. Self-closing tags 
+    => All input tags
+    => br
+    => img
+4. open and close tags
+    => h1-h6
+    => p
+
+
+<element>or <tag>
+
+<open tag>
+content
+</close tag>
+
+
+self closing tags
+-----------------------
+<img/>
+<open-tag attr> content</close-tag>
+
+
+List in HTML
+----------------
+
+1 .order List
+2 . un-ordered List
+3. descriptive list
+
+Block and Inline
+-----------------
+Block -level : 
+
+1.It will completly takes the width od your browser
+2. It start's with new line
+
+Inline-level :
+
+1. takes the width whatever it needed
+2. Does not starts with new line
+
+Semantic tag ::
+_______________________________________
+1. header
+---------
+    headings (h1 - h6)
+
+2. nav
+-------------
+    home , services ,contact us 
+
+3. section
+---------
+    introduction
+    chapters information
+
+4. article
+-----------
+    articals information 
+    blogs information
+
+5. aside
+---------------
+    aside element represents a portion of a document ,
+    whose content is only indirectly related to the document's main content. 
+
+6. footer
+---------------
+    terms and conditions
+    contact details
+
+CSS FLEX BOX 
+_______________________________________
+
+Flex box :
+------------
+    Flexbox is a one-dimensional layout method for arranging items in rows or columns
+
+
+Flex-properties :
+_______________________________________
+Flex
+flex-direction : 
+                =>row
+                =>column
+                =>row-reverse
+                =>column-reverse
+justify-content : 
+                =>flex-start
+                =>center
+                =>flex-end
+                =>space-between
+                =>space-around
+                =>space-evenly
+order: 1,2,3...
+flex-grow :1,2,3,4....
+flex-shrink : 1,2,....
+
+
+
+CSS Layout -The position property
+______________________________________________
+
+1.static
+2.relative [relative to normal position]
+3.fixed [relative to the viewport,always statys in the same place even if the page scorlled]
+4.absolute [relative to the nearest positioned ancestor]
+5.sticky [based on users scroll position, a sticky element toggles btw relative and fixed]
+
+Bootstrap
+----------------------------------------------------
+1. Breakpoints
+2. Containers
+3. Grid system
+4. Components
+
+Effects :
+-----------------------------------------------------
+::before
+::after
+:hover
+
+CSS : oct 10th class
+------------------------------------------------------
+1. Comments in Css 
+    => /* This is a single-line comment */
+2. float
+    =>1. left
+    =>2. right
+
+3. display
+    =>1. flex
+    =>2. block
+    =>3. inline
+    =>4 .none
+
+4. visibility
+    =>1. hidden
+
+5. CSS defines three types of gradients:
+ =>  1.Linear Gradients (goes down/up/left/right/diagonally)
+ =>  2.Radial Gradients (defined by their center)
+ =>  3. conical gradients [not available for the HTML5 version]
+
+6. Shadow effects
+    =>1. Text shadow effect!  text-shadow : right bottom left top color 
+    =>2. box-shadow
+
+7. vertical line
+    border:none
+    border : 2px 0px 0px 0px red;
+    height: 200px
+
+ CSS oct 11th class
+---------------------------------------------------
+1. transition
+2. transition-delay
+3. transition-timing-function
+        => transition-timing-function: linear
+        => transition-timing-function: ease
+        => transition-timing-function: ease-in
+        => transition-timing-function: ease-out
+        => transition-timing-function: ease-in-out
+ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+linear - specifies a transition effect with the same speed from start to end
+ease-in - specifies a transition effect with a slow start
+ease-out - specifies a transition effect with a slow end
+ease-in-out - specifies a transition effect with a slow start and end
+
+4. transform
+
+oct 11th class topics 
+---------------------------
+
+1. Animations 
+    => animation properties 
+    ________________________________
+
+        =>1. animation-name: example;
+        =>2. animation-duration: 4s;
+        =>3. animation-delay: 2s;
+        =>4. animation-iteration-count: 3 or infinite;
+        =>5. animation-direction: reverse; 
+        animation-direction property values :
+        ______________________________________
+            1.  normal - The animation is played as normal (forwards). This is default
+            2.  reverse - The animation is played in reverse direction (backwards)
+            3. alternate - The animation is played forwards first, then backwards
+            4. alternate-reverse - The animation is played backwards first, then forwards
+        =>6. animation-timing-function: linear, ease,ease-in,ease-out,ease-in-out
+
+    ---->Sytax for using the animations =>1.  @keyframes example {
+                    from {background-color: red;}
+                    to {background-color: yellow;}
+                }
+            =>2.  @keyframes example {
+                    0% {background-color: red;}
+                    20% {background-color: yellow;}
+                    40% {background-color : blue}
+                }
+
+Sass [Syntactically awesome style sheet] in css 
+-------------------------------------------------
+Instruction to use Scss file
+    =>1. install Live sass compailer for adding sass or scss
+    =>2. create the file with scss extension
+    =>3. Add the file link as 'fileName.css' extension
+    =>4. click on watch scss option in the bottom of vs code
+variable [$property-name:value]
+nested [{{}}]
+mixin [@mixin ,@include]
+_________________________________________________________________________________________________________________________________________
+
+Javascript 
+------------------------------------
+1. Introduction Javascript
+2. Synchronous, single threaded
+3. Comments in js [single-line,multi-line]
+4. Print data in the terminal
+5. Variables in Javascript [var,let,const]
+6. Operators
+6. Data types in javascript
+7. Functions in Javascript [function defination,function expression, arrow function]
+8. Comparisions
+9. Scope in js
+10. Hoisting, use strict
+11. Event Loop
+12. Loops
+13. Error handling
+14. RegEX
+15. JS versions
+16. Classes
+17. Asyn,await,promises
+18. Set,Map
+19. DOM methods and events
+20. AJAX
+21. Jquery
+22. Call,Apply,Bind
+23. this keyword in javascript
+24. Spread operator
+25. Rest Operator
+26.Lexical enironment
+27.Closures in javascript
+28. call back function
+29.higher order function
+30. Destructuring
+
+Oct 16th class topics 
+______________________________________
+
+1. Introduction Javascript
+2. Synchronous, single threaded
+3. Comments in js [single-line,multi-line]
+4. Print data in the terminal
+5. Variables in Javascript [var,let,const]
+
+Oct 17th class topics 
+______________________
+
+Rules of writing variable names :
+----------------------------------
+=> It should not starts with numbers or special charactors
+=>It has to contain camel case,snake case, pascal case only.
+=> Done not contain special charectors
+
+1. Data types in javascript [8]
+    =>1.String.
+    =>2.Number.
+    =>3.Bigint.
+    =>4.Boolean.
+    =>5.Undefined.
+    =>6.Null.
+    =>7.Symbol.
+    =>8.Object.
+
+    other data types :
+        =>1.array
+        =>2.Date
+
+2. Comparision [loose equals to(==) , strict equals to(===)]
+3. Operators 
+    Types of JavaScript Operators
+    There are different types of JavaScript operators:
+    --------------------------------------------------------
+    =>Arithmetic Operators
+    =>Assignment Operators
+    =>Comparison Operators
+    =>Ternary Operators
+    =>Logical Operators
+    =>Bitwise Operators
+    =>Type Operators
+
+Arithmetic Operators :
+-----------------------
+Operator	Description
+
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+
+Assignment Operator :
+------------------------
+
+Operator	Example	Same As
+
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+
+Comparison operators :
+----------------------
+
+==	loose equals to or double equals to
+===	strict equals to or triple equals to
+!=	not equal		
+!==	not equal value or not equal type		
+>	greater than		
+<	less than	
+>=	greater than or equal to	
+<=	less than or equal to	
+
+Ternary Operators :
+-------------------
+
+condition ? true : false
+example :
+---------
+        const a = 20
+        const b = 20
+        const c = a===b?"true" :"false"
+
+Oct 17th class
+____________________________________________________________________
+
+Operators continue:
+    =>Logical Operators
+    =>Bitwise Operators
+    =>Type Operators
+
+Logical operators
+-------------------------
+
+Operator	Description	    Example
+
+&&	          and	        (x < 10 && y > 1) is true
+||	           or	        (x == 5 || y == 5) is false
+!	          not	        !(x == y) is true
+
+Bitwise Operators:
+-------------------------
+
+Operator	Name	                Description
+
+&	        AND	                    Sets each bit to 1 if both bits are 1 
+|	        OR	                    Sets each bit to 1 if one of two bits is 1
+^	        XOR	                    if both sets values is same its sets to 0 else it sets to 1 
+<<	        Zero fill left shift	Shifts left by pushing zeros in from the right and let the leftmost bits fall off
+>>	        Signed right shift	    Shifts right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
+~	        NOT	                    Inverts all the bits
+
+JavaScript Uses 32 bits Bitwise Operands
+Binary Representation (32-bits) Decimal-value 
+
+7654321
+0000001             =>               1 
+
+
+Type Operators :
+--------------------
+Used to check the type of data type
+Syntax  : typeof variable_name
+example : let x = 20
+console.log(typeof x) //Number
+
+=> single quotes,double quotes, triple quotes
+
+Conditions :
+--------------------------------
+If,else,else if 
+if (condition) {
+  // IF condition is true if block will executes
+  // Once it is true it will stop the execution flow
+  // Execution will not move to the next else if or else block
+} else if (condition) {
+  // if block condition is true 
+  // this else if block will not executes
+} else {
+  //if all conditions false else will execute
+}
+
+oct 19th class
+______________________________________________
+
+1. Functions in Javascript :
+---------------------------------
+    =>function defination,
+    =>function expression, 
+    =>arrow function, 
+
+4. difference btw function Definition, function Expression, Arrow Functions :
+-------------------------------------------------------------------------------
+    1. Function Definition :
+    ------------------------
+        =>1. Syntax 
+        =>2. we can call function before initialization
+        =>3. Allows to use duplicate arguments
+        =>4. we can call with new keyword
+        =>5. there is binding of "this" concept
+
+    2. Function Expression :
+    -------------------------
+        =>1. Syntax 
+        =>2. we can't call function before initialization
+        =>3. Allows to use duplicate arguments
+        =>4. we can call with new keyword
+        =>5. there is binding of "this" concept
+
+    3. arrow Function :
+    ------------------------
+        =>1. Syntax 
+        =>2. we can't call function before initialization
+        =>3. Not Allows to use duplicate arguments
+        =>4. we can't call with new keyword
+        =>5. there is no binding of "this" concept
+        
+oct 20 class
+-------------------------
+1. Use strict
+    =>The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
+    Why Strict Mode?
+        =>Strict mode makes it easier to write "secure" JavaScript.
+        =>Strict mode changes previously accepted "bad syntax" into real errors.
+        =>As an example, in normal JavaScript, mistyping a variable name creates a new global variable. In strict mode, this will throw an error, making it impossible to accidentally create a global variable.
+2. Scope in javascript
+Scope determines the accessibility (visibility) of variables.
+    1. Global scope [variables outside function ex : var]
+        =>we can access anywhere
+    2. Block Scope [variables inside curly braces {} ex :let, const]
+         =>we can access inside block only
+    3. Functional scope or Local scope [variables inside function ex:var,let,const]
+         =>we can access inside functions only
+
+1. global variables can access anywhere 
+    => we can access global level, block level, local level
+2. Block scoped variables can access only inside the block
+    => we can't access local - level, global - level
+3. function or local scoped variables we can access only inside functions
+    => we can't access global-level ,block-level
+
+oct 26th class
+-------------------------------
+
+1. Hoisting in javascript,
+    =>Hoisting is the default behavior of moving all the declarations at the top of the scope before code execution.
+2. Temporal deadzone 
+    => The time period between the variable initialzed and some value is assigned to it is called temporal deadzone
+3. reference error 
+    => variables inside temporal deadzone causes reference error
+    => ex : if we try to access the block scoped variables out of block will get reference error
+4. Syntax error
+5. error handling
+
+oct 27th class :
+-------------------------------
+1.Lexical enironment
+2.Closures in javascript
+3.call back function
+4.Error handling in javascript try,catch,finally,throw
+
+oct 28th class :
+---------------------------------
+Data types 
+--------------
+    =>1.String.
+    =>2.Number.
+    =>3.Bigint.
+    =>4.Boolean.
+    =>5.Undefined.
+    =>6.Null.
+    =>7.Symbol.
+    =>8.Object.
+ 1 .String methods in javascript :
+-------------------------------
+String length
+String replace()
+String replaceAll()
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String trimStart()
+String trimEnd()
+String split()
+String charAt()
+String charCodeAt()
+String slice(startIndex,endIndex)
+String substring()
+String padStart(number,"character")
+String padEnd()
+
+Oct 29th class
+--------------------------------
+
+1. String Search Methods
+------------------------------
+String startsWith()
+String endsWith()
+String includes()
+String search()
+String indexOf()
+String lastIndexOf()
+String match()
+String matchAll()
+
+2.Template literals
+-------------------
+ `${variable_name}`
+
+3.Multitle String
+-------------------  
+using back ticks we have to write multi-lines of String `
+
+Object methods in js
+--------------------------
+1. Fetching Object values and key
+--------------------------------
+    1. objectName.propertyName
+    2. Object.keys(objectName)
+    3.Object.values(objectName)
+    4.Object.entries(objectName)
+
+2. Update or adding key value pairs
+-----------------------------------
+objectName.key="value"
+
+3.Delete key value pairs in object
+------------------------------------
+delete objectName.key
+
+oct 31st class
+---------------------------
+Array methods
+----------------
+Array length
+Array toString()
+Array pop()
+Array push()
+Array shift()
+Array unshift()
+Array join()
+Array delete()
+Array concat()
+Array flat()
+Array splice()
+Array slice()
+Array sort()
+Array reverse()
+Array includes()
+
+Spread operator
+
+Iteration Array methods
+-----------------------
+Map()
+filter()
+reduce()
+find()
+foreach()
+every()
+some()
+indexOf()
+lastIndex()
